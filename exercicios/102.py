@@ -3,24 +3,30 @@
 weekdays = ['mon','tues','wed','thurs','fri']
 days_list = ['mon','tues','wed','thurs','fri','sat','sun']
 list = ['a', 1, 3.14159265359]
-# ex 102 #
+# exercicio 102 #
 
 # Como selecionar 'wed' pelo indice?
 print(weekdays.__getitem__(2))
-
+teste = weekdays[2]
+print(teste)
 # Como verificar o tipo de 'mon'?
-
-tipo = weekdays.__getitem__(0)
-print( type(tipo))
+teste = weekdays[0]
+print(type(teste))
 
 # Como separar 'wed' até 'fri'?
 
 print(weekdays[2:5])
 
+days = weekdays[2:]
+print(days)
+
 # Quais as maneiras de selecionar 'fri' por indice?
-
-
-print(weekdays[4])
+teste1 = weekdays[4]
+teste2 = weekdays[4:]
+teste3 = weekdays[-1]
+print(teste1)
+print(teste2)
+print(teste3)
 
 # Qual eh o tamanho dos dias e days_list?
 
@@ -35,7 +41,6 @@ days[::-1]
 # Como inserir a palavra 'zero' entre 'a' e 1 de list?
 
 list.insert(1,"zero")
-
 
 # Como limpar list?
 
